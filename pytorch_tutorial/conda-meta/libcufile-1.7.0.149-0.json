@@ -1,0 +1,70 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/mohanad/miniconda3/pkgs/libcufile-1.7.0.149-0",
+  "features": "",
+  "files": [
+    "etc/cufile.json",
+    "lib/libcufile.so.0",
+    "lib/libcufile.so.1.7.0",
+    "lib/libcufile_rdma.so.1",
+    "lib/libcufile_rdma.so.1.7.0"
+  ],
+  "fn": "libcufile-1.7.0.149-0.tar.bz2",
+  "link": {
+    "source": "/home/mohanad/miniconda3/pkgs/libcufile-1.7.0.149-0",
+    "type": 1
+  },
+  "md5": "0ee4d92d0aaa51bae4535268588e4f35",
+  "name": "libcufile",
+  "package_tarball_full_path": "/home/mohanad/miniconda3/pkgs/libcufile-1.7.0.149-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/cufile.json",
+        "path_type": "hardlink",
+        "sha256": "d4bb89b0a400437aaf0ee2bd8e1d5dac4968e63f85c5ee00a499508b780906df",
+        "sha256_in_prefix": "d4bb89b0a400437aaf0ee2bd8e1d5dac4968e63f85c5ee00a499508b780906df",
+        "size_in_bytes": 10756
+      },
+      {
+        "_path": "lib/libcufile.so.0",
+        "path_type": "softlink",
+        "sha256": "407a191eb4fc17ba7f4cff386918e281bd5045b8f3bad121589ed82ab6e4c3ca",
+        "size_in_bytes": 3008456
+      },
+      {
+        "_path": "lib/libcufile.so.1.7.0",
+        "path_type": "hardlink",
+        "sha256": "407a191eb4fc17ba7f4cff386918e281bd5045b8f3bad121589ed82ab6e4c3ca",
+        "sha256_in_prefix": "407a191eb4fc17ba7f4cff386918e281bd5045b8f3bad121589ed82ab6e4c3ca",
+        "size_in_bytes": 3008456
+      },
+      {
+        "_path": "lib/libcufile_rdma.so.1",
+        "path_type": "softlink",
+        "sha256": "3d0ba31da84b130c39070cd86db95d432073758111c3cd5042a031d91ac9d8f1",
+        "size_in_bytes": 47656
+      },
+      {
+        "_path": "lib/libcufile_rdma.so.1.7.0",
+        "path_type": "hardlink",
+        "sha256": "3d0ba31da84b130c39070cd86db95d432073758111c3cd5042a031d91ac9d8f1",
+        "sha256_in_prefix": "3d0ba31da84b130c39070cd86db95d432073758111c3cd5042a031d91ac9d8f1",
+        "size_in_bytes": 47656
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0c9204dfca9659ba3026d1cb06972837dbd973b8092d7ab1fbe43e527e93c247",
+  "size": 1045055,
+  "subdir": "linux-64",
+  "timestamp": 1684346289481,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcufile-1.7.0.149-0.tar.bz2",
+  "version": "1.7.0.149"
+}

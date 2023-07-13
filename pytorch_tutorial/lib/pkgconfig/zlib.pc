@@ -1,0 +1,13 @@
+prefix=/home/mohanad/learn/Pytorch/pytorch_tutorial
+exec_prefix=/home/mohanad/learn/Pytorch/pytorch_tutorial
+libdir=/home/mohanad/learn/Pytorch/pytorch_tutorial/lib
+sharedlibdir=/home/mohanad/learn/Pytorch/pytorch_tutorial/lib
+includedir=/home/mohanad/learn/Pytorch/pytorch_tutorial/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

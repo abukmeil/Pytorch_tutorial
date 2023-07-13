@@ -1,0 +1,1462 @@
+{
+  "build": "py38h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/mohanad/miniconda3/pkgs/mpmath-1.2.1-py38h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/mpmath/__init__.py",
+    "lib/python3.8/site-packages/mpmath/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/ctx_base.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/ctx_fp.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/ctx_iv.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/ctx_mp.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/ctx_mp_python.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/function_docs.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/identification.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/math2.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/rational.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/usertools.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/__pycache__/visualization.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__init__.py",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/approximation.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/calculus.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/differentiation.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/extrapolation.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/inverselaplace.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/odes.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/optimization.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/polynomials.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/__pycache__/quadrature.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/calculus/approximation.py",
+    "lib/python3.8/site-packages/mpmath/calculus/calculus.py",
+    "lib/python3.8/site-packages/mpmath/calculus/differentiation.py",
+    "lib/python3.8/site-packages/mpmath/calculus/extrapolation.py",
+    "lib/python3.8/site-packages/mpmath/calculus/inverselaplace.py",
+    "lib/python3.8/site-packages/mpmath/calculus/odes.py",
+    "lib/python3.8/site-packages/mpmath/calculus/optimization.py",
+    "lib/python3.8/site-packages/mpmath/calculus/polynomials.py",
+    "lib/python3.8/site-packages/mpmath/calculus/quadrature.py",
+    "lib/python3.8/site-packages/mpmath/ctx_base.py",
+    "lib/python3.8/site-packages/mpmath/ctx_fp.py",
+    "lib/python3.8/site-packages/mpmath/ctx_iv.py",
+    "lib/python3.8/site-packages/mpmath/ctx_mp.py",
+    "lib/python3.8/site-packages/mpmath/ctx_mp_python.py",
+    "lib/python3.8/site-packages/mpmath/function_docs.py",
+    "lib/python3.8/site-packages/mpmath/functions/__init__.py",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/bessel.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/elliptic.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/expintegrals.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/factorials.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/functions.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/hypergeometric.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/orthogonal.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/qfunctions.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/rszeta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/theta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/zeta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/__pycache__/zetazeros.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/functions/bessel.py",
+    "lib/python3.8/site-packages/mpmath/functions/elliptic.py",
+    "lib/python3.8/site-packages/mpmath/functions/expintegrals.py",
+    "lib/python3.8/site-packages/mpmath/functions/factorials.py",
+    "lib/python3.8/site-packages/mpmath/functions/functions.py",
+    "lib/python3.8/site-packages/mpmath/functions/hypergeometric.py",
+    "lib/python3.8/site-packages/mpmath/functions/orthogonal.py",
+    "lib/python3.8/site-packages/mpmath/functions/qfunctions.py",
+    "lib/python3.8/site-packages/mpmath/functions/rszeta.py",
+    "lib/python3.8/site-packages/mpmath/functions/theta.py",
+    "lib/python3.8/site-packages/mpmath/functions/zeta.py",
+    "lib/python3.8/site-packages/mpmath/functions/zetazeros.py",
+    "lib/python3.8/site-packages/mpmath/identification.py",
+    "lib/python3.8/site-packages/mpmath/libmp/__init__.py",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/backend.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/gammazeta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libelefun.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libhyper.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libintmath.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpc.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpf.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpi.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/libmp/backend.py",
+    "lib/python3.8/site-packages/mpmath/libmp/gammazeta.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libelefun.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libhyper.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libintmath.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libmpc.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libmpf.py",
+    "lib/python3.8/site-packages/mpmath/libmp/libmpi.py",
+    "lib/python3.8/site-packages/mpmath/math2.py",
+    "lib/python3.8/site-packages/mpmath/matrices/__init__.py",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/calculus.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/eigen.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/eigen_symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/linalg.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/__pycache__/matrices.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/matrices/calculus.py",
+    "lib/python3.8/site-packages/mpmath/matrices/eigen.py",
+    "lib/python3.8/site-packages/mpmath/matrices/eigen_symmetric.py",
+    "lib/python3.8/site-packages/mpmath/matrices/linalg.py",
+    "lib/python3.8/site-packages/mpmath/matrices/matrices.py",
+    "lib/python3.8/site-packages/mpmath/rational.py",
+    "lib/python3.8/site-packages/mpmath/tests/__init__.py",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/extratest_gamma.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/extratest_zeta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/runtests.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_basic_ops.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_bitwise.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_calculus.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_compatibility.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_convert.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_diff.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_division.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_eigen.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_eigen_symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_elliptic.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_fp.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_functions.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_functions2.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_gammazeta.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_hp.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_identify.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_interval.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_levin.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_linalg.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_matrices.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_mpmath.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_ode.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_pickle.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_power.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_quad.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_rootfinding.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_special.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_str.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_summation.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_trig.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_visualization.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/__pycache__/torture.cpython-38.pyc",
+    "lib/python3.8/site-packages/mpmath/tests/extratest_gamma.py",
+    "lib/python3.8/site-packages/mpmath/tests/extratest_zeta.py",
+    "lib/python3.8/site-packages/mpmath/tests/runtests.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_basic_ops.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_bitwise.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_calculus.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_compatibility.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_convert.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_diff.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_division.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_eigen.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_eigen_symmetric.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_elliptic.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_fp.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_functions.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_functions2.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_gammazeta.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_hp.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_identify.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_interval.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_levin.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_linalg.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_matrices.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_mpmath.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_ode.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_pickle.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_power.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_quad.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_rootfinding.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_special.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_str.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_summation.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_trig.py",
+    "lib/python3.8/site-packages/mpmath/tests/test_visualization.py",
+    "lib/python3.8/site-packages/mpmath/tests/torture.py",
+    "lib/python3.8/site-packages/mpmath/usertools.py",
+    "lib/python3.8/site-packages/mpmath/visualization.py"
+  ],
+  "fn": "mpmath-1.2.1-py38h06a4308_0.conda",
+  "legacy_bz2_md5": "c2462d729f97116149b9cfddb4f8a488",
+  "legacy_bz2_size": 981648,
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/mohanad/miniconda3/pkgs/mpmath-1.2.1-py38h06a4308_0",
+    "type": 1
+  },
+  "md5": "631675cea091ff218b21b3a18378789d",
+  "name": "mpmath",
+  "package_tarball_full_path": "/home/mohanad/miniconda3/pkgs/mpmath-1.2.1-py38h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "fa1aeb9ee09b10502d762f94a699cb0e004e0872b9583206838c879f8c175738",
+        "sha256_in_prefix": "fa1aeb9ee09b10502d762f94a699cb0e004e0872b9583206838c879f8c175738",
+        "size_in_bytes": 9575
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "5a48bf91d1d60dfc33b7b4b4dcbd4a99daa38959181332516021c3eda9316c2f",
+        "sha256_in_prefix": "5a48bf91d1d60dfc33b7b4b4dcbd4a99daa38959181332516021c3eda9316c2f",
+        "size_in_bytes": 6612
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "67d214b35f1dc584ded0a54b0b64b9fa20d18eed20874df95302029baef75676",
+        "sha256_in_prefix": "67d214b35f1dc584ded0a54b0b64b9fa20d18eed20874df95302029baef75676",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath-1.2.1-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "054556ae1f0456590e84cd67dd7f52f26b13695702fb7b3a4a3b7ad1abc762eb",
+        "sha256_in_prefix": "054556ae1f0456590e84cd67dd7f52f26b13695702fb7b3a4a3b7ad1abc762eb",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "46cd24a875e8dd00fb47c6a5cf28fd06878d4dfe7562446b8d23ca69ca65b413",
+        "sha256_in_prefix": "46cd24a875e8dd00fb47c6a5cf28fd06878d4dfe7562446b8d23ca69ca65b413",
+        "size_in_bytes": 8613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b284c537d687796a2a2f4c7645fc31fa44d1356994e0d83292f7fcc9b8c65bc6",
+        "sha256_in_prefix": "b284c537d687796a2a2f4c7645fc31fa44d1356994e0d83292f7fcc9b8c65bc6",
+        "size_in_bytes": 8124
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/ctx_base.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee53b34d2f909a5145ff1d24f8296cdfef0f8c4cc9083f6443c9aa286687578b",
+        "sha256_in_prefix": "ee53b34d2f909a5145ff1d24f8296cdfef0f8c4cc9083f6443c9aa286687578b",
+        "size_in_bytes": 16309
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/ctx_fp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2af4dbae331c2eca78f2902c99d56c185e434c9254b82312dc9d7c4397593748",
+        "sha256_in_prefix": "2af4dbae331c2eca78f2902c99d56c185e434c9254b82312dc9d7c4397593748",
+        "size_in_bytes": 7831
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/ctx_iv.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9a6b8634d470081f449d9f7d2d69864685c121822150b4509510155493d47c9",
+        "sha256_in_prefix": "c9a6b8634d470081f449d9f7d2d69864685c121822150b4509510155493d47c9",
+        "size_in_bytes": 20901
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/ctx_mp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "46e96fd887ddf048fbac3d8bee27c90753b8df1c68c5ce8c36977ed6802cbaef",
+        "sha256_in_prefix": "46e96fd887ddf048fbac3d8bee27c90753b8df1c68c5ce8c36977ed6802cbaef",
+        "size_in_bytes": 43589
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/ctx_mp_python.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "82a522228910214b8bac727337ec98d87907e0bfd97556f45b7c6022f7fefa4d",
+        "sha256_in_prefix": "82a522228910214b8bac727337ec98d87907e0bfd97556f45b7c6022f7fefa4d",
+        "size_in_bytes": 35510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/function_docs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e6c09b1393b37ad87835874025436f9601a27fdd08f0a1056486d972ccb0b52",
+        "sha256_in_prefix": "3e6c09b1393b37ad87835874025436f9601a27fdd08f0a1056486d972ccb0b52",
+        "size_in_bytes": 280814
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/identification.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f5d649401704ed2c2514effb60332b5a89f32842fdcada4f0e68a3c60d3f149a",
+        "sha256_in_prefix": "f5d649401704ed2c2514effb60332b5a89f32842fdcada4f0e68a3c60d3f149a",
+        "size_in_bytes": 28635
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/math2.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f54607af51c861825c84b039d1c9c030fe56f5d47d44ebc7a4f1074a697cc9c",
+        "sha256_in_prefix": "0f54607af51c861825c84b039d1c9c030fe56f5d47d44ebc7a4f1074a697cc9c",
+        "size_in_bytes": 15785
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/rational.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e651f2f45a5b5c6af43a0f32a1b0c55cf355d41d47d139aa6360c3f0b02c56b",
+        "sha256_in_prefix": "5e651f2f45a5b5c6af43a0f32a1b0c55cf355d41d47d139aa6360c3f0b02c56b",
+        "size_in_bytes": 6111
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/usertools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aed8ef31545f3e14d0b2596403d0ccaaf0e8152e17c430e35d82be1e6c8005b7",
+        "sha256_in_prefix": "aed8ef31545f3e14d0b2596403d0ccaaf0e8152e17c430e35d82be1e6c8005b7",
+        "size_in_bytes": 3606
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/__pycache__/visualization.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "31a20df826a26fde2fd6e8bebcb0c7d65386c0de3086b4cb4fbc8e49650ed1c1",
+        "sha256_in_prefix": "31a20df826a26fde2fd6e8bebcb0c7d65386c0de3086b4cb4fbc8e49650ed1c1",
+        "size_in_bytes": 9864
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "500802209d5899a7b24eaa4dce306509919e2332ed51930412997df5558d8eeb",
+        "sha256_in_prefix": "500802209d5899a7b24eaa4dce306509919e2332ed51930412997df5558d8eeb",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d362a71784c560b0e54c64d666e534dd95b130a5a14e2396d6b1f5e641e0cb1",
+        "sha256_in_prefix": "7d362a71784c560b0e54c64d666e534dd95b130a5a14e2396d6b1f5e641e0cb1",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/approximation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "56cf284572ebaeebe14754c2fce6f6f15f47033e47a9865fcc7693356f0cfc7f",
+        "sha256_in_prefix": "56cf284572ebaeebe14754c2fce6f6f15f47033e47a9865fcc7693356f0cfc7f",
+        "size_in_bytes": 9148
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/calculus.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b1a7b5d96879a827916797c0724f108f57f44e9ceef746ce26b08e238f49827",
+        "sha256_in_prefix": "2b1a7b5d96879a827916797c0724f108f57f44e9ceef746ce26b08e238f49827",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/differentiation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "958ba6f53b9ec62903f8b80e0dad6a717e8b799a045575520f2800c8f3623549",
+        "sha256_in_prefix": "958ba6f53b9ec62903f8b80e0dad6a717e8b799a045575520f2800c8f3623549",
+        "size_in_bytes": 20336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/extrapolation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c69c9a815ff96c0048f34cebb274e3c556026794df72ca9f6d13c7991866ab2",
+        "sha256_in_prefix": "0c69c9a815ff96c0048f34cebb274e3c556026794df72ca9f6d13c7991866ab2",
+        "size_in_bytes": 69598
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/inverselaplace.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a37dcc91d30239b58f8935fa07044587a985f0fd674fe27d17e9b815670d5989",
+        "sha256_in_prefix": "a37dcc91d30239b58f8935fa07044587a985f0fd674fe27d17e9b815670d5989",
+        "size_in_bytes": 26678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/odes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d73d0e5c58c6bd8ad7271bf540979426d7a7d4146bb74b97c4297dc25755f06",
+        "sha256_in_prefix": "9d73d0e5c58c6bd8ad7271bf540979426d7a7d4146bb74b97c4297dc25755f06",
+        "size_in_bytes": 10195
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/optimization.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "83b54a9305e4518e0daaa231ac377d69c694f17d34e2ea23f39c18b91bf61c22",
+        "sha256_in_prefix": "83b54a9305e4518e0daaa231ac377d69c694f17d34e2ea23f39c18b91bf61c22",
+        "size_in_bytes": 30368
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/polynomials.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c2bf8baf20287119d9a96e6a987566a258fdddabdcfc1f70441b3f3effce4d4",
+        "sha256_in_prefix": "2c2bf8baf20287119d9a96e6a987566a258fdddabdcfc1f70441b3f3effce4d4",
+        "size_in_bytes": 7789
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/__pycache__/quadrature.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "305b673aa0eeef81c94c97662323ff259dd4b94aa886b2d55c8d92403a00f2ba",
+        "sha256_in_prefix": "305b673aa0eeef81c94c97662323ff259dd4b94aa886b2d55c8d92403a00f2ba",
+        "size_in_bytes": 36410
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/approximation.py",
+        "path_type": "hardlink",
+        "sha256": "bf2ceedd823aafadceab52851eb433d369865c0707db77a6a8d62126e51a159e",
+        "sha256_in_prefix": "bf2ceedd823aafadceab52851eb433d369865c0707db77a6a8d62126e51a159e",
+        "size_in_bytes": 8817
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/calculus.py",
+        "path_type": "hardlink",
+        "sha256": "034812a748714b21037ee80956263709e59a945faf2bbd3561fb73ae3490cd0e",
+        "sha256_in_prefix": "034812a748714b21037ee80956263709e59a945faf2bbd3561fb73ae3490cd0e",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/differentiation.py",
+        "path_type": "hardlink",
+        "sha256": "d8be82063f31b57f628a9f7c34f6cab0bb70b518f18b9ef5c1899330715e2fdd",
+        "sha256_in_prefix": "d8be82063f31b57f628a9f7c34f6cab0bb70b518f18b9ef5c1899330715e2fdd",
+        "size_in_bytes": 20226
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/extrapolation.py",
+        "path_type": "hardlink",
+        "sha256": "76db1bc3118cde33afcb6c309c41a8a1459798ea75428b3d2e0a542a1e0b6d90",
+        "sha256_in_prefix": "76db1bc3118cde33afcb6c309c41a8a1459798ea75428b3d2e0a542a1e0b6d90",
+        "size_in_bytes": 73295
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/inverselaplace.py",
+        "path_type": "hardlink",
+        "sha256": "a0c178ea413b4386ff0ac47e501c114b1936a7592fd5472cf67aa0dbc0df16a1",
+        "sha256_in_prefix": "a0c178ea413b4386ff0ac47e501c114b1936a7592fd5472cf67aa0dbc0df16a1",
+        "size_in_bytes": 31135
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/odes.py",
+        "path_type": "hardlink",
+        "sha256": "81a1e2c3b2098ec38d35301aea2cc53d9a66720f6ec93a7c3142e719dcd3206a",
+        "sha256_in_prefix": "81a1e2c3b2098ec38d35301aea2cc53d9a66720f6ec93a7c3142e719dcd3206a",
+        "size_in_bytes": 9908
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/optimization.py",
+        "path_type": "hardlink",
+        "sha256": "6ca9d285712504e9953883a515e92c0ec602a7d7d84a66302a65c3b74cf6e8c3",
+        "sha256_in_prefix": "6ca9d285712504e9953883a515e92c0ec602a7d7d84a66302a65c3b74cf6e8c3",
+        "size_in_bytes": 32856
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/polynomials.py",
+        "path_type": "hardlink",
+        "sha256": "0f5e81854fd21db562d3a2313700011d1f87efb23296774db0dde6b8f4ee158b",
+        "sha256_in_prefix": "0f5e81854fd21db562d3a2313700011d1f87efb23296774db0dde6b8f4ee158b",
+        "size_in_bytes": 7877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/calculus/quadrature.py",
+        "path_type": "hardlink",
+        "sha256": "6242f2361a11c25327171ceb53f1e9a8b545b71d91a6b0c0a57d79705c262254",
+        "sha256_in_prefix": "6242f2361a11c25327171ceb53f1e9a8b545b71d91a6b0c0a57d79705c262254",
+        "size_in_bytes": 38487
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/ctx_base.py",
+        "path_type": "hardlink",
+        "sha256": "adf8e67ccc80e79c7c47f716148354c165531257d99b2c797ab28375ab92115c",
+        "sha256_in_prefix": "adf8e67ccc80e79c7c47f716148354c165531257d99b2c797ab28375ab92115c",
+        "size_in_bytes": 15985
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/ctx_fp.py",
+        "path_type": "hardlink",
+        "sha256": "72d523c7f3685348855a4d397170d808bd99b4b64e956b359fa65aa37a5b1b68",
+        "sha256_in_prefix": "72d523c7f3685348855a4d397170d808bd99b4b64e956b359fa65aa37a5b1b68",
+        "size_in_bytes": 6572
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/ctx_iv.py",
+        "path_type": "hardlink",
+        "sha256": "b6a74cafe1837e4664d4486819e0806a3cbba50bfe456b6b56a8588df23caf88",
+        "sha256_in_prefix": "b6a74cafe1837e4664d4486819e0806a3cbba50bfe456b6b56a8588df23caf88",
+        "size_in_bytes": 17211
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/ctx_mp.py",
+        "path_type": "hardlink",
+        "sha256": "83ab184b2246cbe3cda6516aa8e901cffe1cec67191ebc866be7c26941a02e3a",
+        "sha256_in_prefix": "83ab184b2246cbe3cda6516aa8e901cffe1cec67191ebc866be7c26941a02e3a",
+        "size_in_bytes": 49448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/ctx_mp_python.py",
+        "path_type": "hardlink",
+        "sha256": "cef7fc1ddf2dd38eb9167f3cb50e4eb2d1f477f824944c7ae3e492e98c761a13",
+        "sha256_in_prefix": "cef7fc1ddf2dd38eb9167f3cb50e4eb2d1f477f824944c7ae3e492e98c761a13",
+        "size_in_bytes": 37730
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/function_docs.py",
+        "path_type": "hardlink",
+        "sha256": "26a15fd679380264dd6fe9817169fb78025987031efceecaaee5a2e3ff09bd61",
+        "sha256_in_prefix": "26a15fd679380264dd6fe9817169fb78025987031efceecaaee5a2e3ff09bd61",
+        "size_in_bytes": 280518
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "480f7831974fc46de9d21b827065cd042ae24a56cf77af6491339591aaa17f30",
+        "sha256_in_prefix": "480f7831974fc46de9d21b827065cd042ae24a56cf77af6491339591aaa17f30",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2630c3ed5127ed3fd2bb1a95319ea3a2c7a5a7cdb88afd6e24b09eb46814853a",
+        "sha256_in_prefix": "2630c3ed5127ed3fd2bb1a95319ea3a2c7a5a7cdb88afd6e24b09eb46814853a",
+        "size_in_bytes": 551
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/bessel.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1eb4bfa4164c13cb08b6e56fa01a00c22d23a633d4d24804733946998d43a266",
+        "sha256_in_prefix": "1eb4bfa4164c13cb08b6e56fa01a00c22d23a633d4d24804733946998d43a266",
+        "size_in_bytes": 34669
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/elliptic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc881556231861ab2a3b48a7284cff627e8f538ff1001319d254baed03c1839c",
+        "sha256_in_prefix": "fc881556231861ab2a3b48a7284cff627e8f538ff1001319d254baed03c1839c",
+        "size_in_bytes": 40299
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/expintegrals.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "17d933368f257457d0a9a641dacb1fc797672b138177eaf5ba250c6add15e746",
+        "sha256_in_prefix": "17d933368f257457d0a9a641dacb1fc797672b138177eaf5ba250c6add15e746",
+        "size_in_bytes": 10504
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/factorials.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "532a4fd6ab67d53653415d92f8d2086d28ee6f56d485e14d5535014182a83177",
+        "sha256_in_prefix": "532a4fd6ab67d53653415d92f8d2086d28ee6f56d485e14d5535014182a83177",
+        "size_in_bytes": 4547
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/functions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6aede54368fdd6ff07804d0785f894c0130e794d005eb49912e753a1685ade3c",
+        "sha256_in_prefix": "6aede54368fdd6ff07804d0785f894c0130e794d005eb49912e753a1685ade3c",
+        "size_in_bytes": 18142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/hypergeometric.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2188073d548d67264dde34911583846c6677a81a0025340ec91ec5367f39e8c2",
+        "sha256_in_prefix": "2188073d548d67264dde34911583846c6677a81a0025340ec91ec5367f39e8c2",
+        "size_in_bytes": 39986
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/orthogonal.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ee586792d74f4b4d747f56a54abae71003da03f703b32ab214cc1152c1ef92d",
+        "sha256_in_prefix": "3ee586792d74f4b4d747f56a54abae71003da03f703b32ab214cc1152c1ef92d",
+        "size_in_bytes": 14355
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/qfunctions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e502231782dfe8b5eb00d01f7f3860e0800e0b03ff2f24ff630a8b97456db97c",
+        "sha256_in_prefix": "e502231782dfe8b5eb00d01f7f3860e0800e0b03ff2f24ff630a8b97456db97c",
+        "size_in_bytes": 7558
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/rszeta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "05b3b956b15f8ff0fe3f2d62e3fb7399bb0045e7c7d967c00ccace25299cef1f",
+        "sha256_in_prefix": "05b3b956b15f8ff0fe3f2d62e3fb7399bb0045e7c7d967c00ccace25299cef1f",
+        "size_in_bytes": 29361
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/theta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "17d598cbe4c4ac7676e91bbcd905d43868213f128a91121e7ebc49f7621b9bc7",
+        "sha256_in_prefix": "17d598cbe4c4ac7676e91bbcd905d43868213f128a91121e7ebc49f7621b9bc7",
+        "size_in_bytes": 20281
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/zeta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fc80ec319d6bad02b3b84c5012424c676370014c84c4d5ba6e8a92941ec34711",
+        "sha256_in_prefix": "fc80ec319d6bad02b3b84c5012424c676370014c84c4d5ba6e8a92941ec34711",
+        "size_in_bytes": 32490
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/__pycache__/zetazeros.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "446a63552e5e1ea47605db9bc82f71638a09c7380d0afc0f77d45e35e502c1da",
+        "sha256_in_prefix": "446a63552e5e1ea47605db9bc82f71638a09c7380d0afc0f77d45e35e502c1da",
+        "size_in_bytes": 23514
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/bessel.py",
+        "path_type": "hardlink",
+        "sha256": "7543cbbbc7eb94afaf99fdfe8ab5ffeeebf0cb0e3171cbfa1088b398867cf243",
+        "sha256_in_prefix": "7543cbbbc7eb94afaf99fdfe8ab5ffeeebf0cb0e3171cbfa1088b398867cf243",
+        "size_in_bytes": 37938
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/elliptic.py",
+        "path_type": "hardlink",
+        "sha256": "51444af9063d302d0b06d1160db50abc826db2f75a0f9ab41e3b9a2d2bc7ab20",
+        "sha256_in_prefix": "51444af9063d302d0b06d1160db50abc826db2f75a0f9ab41e3b9a2d2bc7ab20",
+        "size_in_bytes": 42299
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/expintegrals.py",
+        "path_type": "hardlink",
+        "sha256": "ef95ff31175873517f5fbddb80d88e26ac11952da1a80cdc14b97744cdad0837",
+        "sha256_in_prefix": "ef95ff31175873517f5fbddb80d88e26ac11952da1a80cdc14b97744cdad0837",
+        "size_in_bytes": 11644
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/factorials.py",
+        "path_type": "hardlink",
+        "sha256": "f3fea4091edee24d46c31880389bb435169d785e23036f2ac78862761bb820b9",
+        "sha256_in_prefix": "f3fea4091edee24d46c31880389bb435169d785e23036f2ac78862761bb820b9",
+        "size_in_bytes": 5273
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/functions.py",
+        "path_type": "hardlink",
+        "sha256": "b9bd89131beacc258b926e72026ef616be9f756999654927abdff7c3d3048a02",
+        "sha256_in_prefix": "b9bd89131beacc258b926e72026ef616be9f756999654927abdff7c3d3048a02",
+        "size_in_bytes": 18100
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/hypergeometric.py",
+        "path_type": "hardlink",
+        "sha256": "67438c00c0b8ca52b8da7fd29da9b21559d4c7acc72f208b0a8243499d49ac76",
+        "sha256_in_prefix": "67438c00c0b8ca52b8da7fd29da9b21559d4c7acc72f208b0a8243499d49ac76",
+        "size_in_bytes": 51570
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/orthogonal.py",
+        "path_type": "hardlink",
+        "sha256": "15a6e4c4a7c1a12b1e0397e55aed5adeb7bed8161a7b0f5aba0a88b13f0b68bc",
+        "sha256_in_prefix": "15a6e4c4a7c1a12b1e0397e55aed5adeb7bed8161a7b0f5aba0a88b13f0b68bc",
+        "size_in_bytes": 16097
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/qfunctions.py",
+        "path_type": "hardlink",
+        "sha256": "6b710718a42dfe331de31f48efbd89cfe4c6167198f9aad6a8fbd91b3f5049ed",
+        "sha256_in_prefix": "6b710718a42dfe331de31f48efbd89cfe4c6167198f9aad6a8fbd91b3f5049ed",
+        "size_in_bytes": 7633
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/rszeta.py",
+        "path_type": "hardlink",
+        "sha256": "cae515a788a52320e65f21375930710c38f07c424dca92676cf4bec4f1f91e8c",
+        "sha256_in_prefix": "cae515a788a52320e65f21375930710c38f07c424dca92676cf4bec4f1f91e8c",
+        "size_in_bytes": 46184
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/theta.py",
+        "path_type": "hardlink",
+        "sha256": "2a080ea1c733a0c1bafc73286a5e2810fee267848a3a8bbd24513e5b3636af73",
+        "sha256_in_prefix": "2a080ea1c733a0c1bafc73286a5e2810fee267848a3a8bbd24513e5b3636af73",
+        "size_in_bytes": 37320
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/zeta.py",
+        "path_type": "hardlink",
+        "sha256": "6497c57204bdf4e56fad46b3cbb2dd3d808373fc4166c782006ebfe635c89f68",
+        "sha256_in_prefix": "6497c57204bdf4e56fad46b3cbb2dd3d808373fc4166c782006ebfe635c89f68",
+        "size_in_bytes": 36389
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/functions/zetazeros.py",
+        "path_type": "hardlink",
+        "sha256": "baae93572641718d8c2d7ed549d55f9f44ce928c012ccf5f5ed9f2484c1a373c",
+        "sha256_in_prefix": "baae93572641718d8c2d7ed549d55f9f44ce928c012ccf5f5ed9f2484c1a373c",
+        "size_in_bytes": 30858
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/identification.py",
+        "path_type": "hardlink",
+        "sha256": "eda31d9e044069e2ff31a7c350d6e61089464129251c367ca663c5b7e38b824c",
+        "sha256_in_prefix": "eda31d9e044069e2ff31a7c350d6e61089464129251c367ca663c5b7e38b824c",
+        "size_in_bytes": 29253
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5020e32d9c386eb6e495a0a64a2c4270f74b747933f2c17ffba17fc2bd1db808",
+        "sha256_in_prefix": "5020e32d9c386eb6e495a0a64a2c4270f74b747933f2c17ffba17fc2bd1db808",
+        "size_in_bytes": 3790
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8593802a90ab5f0b61575c31821343289a23371afb3417aae1606e0fe0973eac",
+        "sha256_in_prefix": "8593802a90ab5f0b61575c31821343289a23371afb3417aae1606e0fe0973eac",
+        "size_in_bytes": 6966
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/backend.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f7195bec7464fb5f6345a99b61a79eb7311d1544426d3413dd1bca32cc177ca",
+        "sha256_in_prefix": "6f7195bec7464fb5f6345a99b61a79eb7311d1544426d3413dd1bca32cc177ca",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/gammazeta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5c41d9c8ab33417aace1f57634145a25ba19154fa0f42d0941bb388857adda0",
+        "sha256_in_prefix": "e5c41d9c8ab33417aace1f57634145a25ba19154fa0f42d0941bb388857adda0",
+        "size_in_bytes": 41861
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libelefun.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bbc0b349d8c7b65c0dc89d736a827859cce78726b5942cfb65ec498b3eb96970",
+        "sha256_in_prefix": "bbc0b349d8c7b65c0dc89d736a827859cce78726b5942cfb65ec498b3eb96970",
+        "size_in_bytes": 30450
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libhyper.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ca023f2451f819b257a7f4c79bce7f69ef6fad64a343896b8c10fdd420574bf",
+        "sha256_in_prefix": "0ca023f2451f819b257a7f4c79bce7f69ef6fad64a343896b8c10fdd420574bf",
+        "size_in_bytes": 25383
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libintmath.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6eac80defe88cba66abb35c793d916e6fa8b8ef1a9065d3c384b5a99f1f81421",
+        "sha256_in_prefix": "6eac80defe88cba66abb35c793d916e6fa8b8ef1a9065d3c384b5a99f1f81421",
+        "size_in_bytes": 14363
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db87605faa05553f3861f73b94c62b5e01f96903f531abfd422f77a3d73483fc",
+        "sha256_in_prefix": "db87605faa05553f3861f73b94c62b5e01f96903f531abfd422f77a3d73483fc",
+        "size_in_bytes": 22969
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpf.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c25af11ee41d96c1f0b96e20ff0164a3cb9f3b8a847394e4c4b83afc8fe29d00",
+        "sha256_in_prefix": "c25af11ee41d96c1f0b96e20ff0164a3cb9f3b8a847394e4c4b83afc8fe29d00",
+        "size_in_bytes": 30669
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/__pycache__/libmpi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "acb7c025fb34514b3c29fac149382215a5ca7db9f5580fdf7bcf25d2865592b8",
+        "sha256_in_prefix": "acb7c025fb34514b3c29fac149382215a5ca7db9f5580fdf7bcf25d2865592b8",
+        "size_in_bytes": 21759
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/backend.py",
+        "path_type": "hardlink",
+        "sha256": "dba03ca5491a1a8bf6eafaeb14d415c962792c3b4af2c977507ad82de71a4e30",
+        "sha256_in_prefix": "dba03ca5491a1a8bf6eafaeb14d415c962792c3b4af2c977507ad82de71a4e30",
+        "size_in_bytes": 3360
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/gammazeta.py",
+        "path_type": "hardlink",
+        "sha256": "5ce13326f70f2010f03d0950d56fc86e6db6e3eb1b487712a8237eeaff27bbdd",
+        "sha256_in_prefix": "5ce13326f70f2010f03d0950d56fc86e6db6e3eb1b487712a8237eeaff27bbdd",
+        "size_in_bytes": 71458
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libelefun.py",
+        "path_type": "hardlink",
+        "sha256": "8e80593f814e7713df89e5aca352cfb52afa747c9da46fcb42217f6d841858c8",
+        "sha256_in_prefix": "8e80593f814e7713df89e5aca352cfb52afa747c9da46fcb42217f6d841858c8",
+        "size_in_bytes": 43861
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libhyper.py",
+        "path_type": "hardlink",
+        "sha256": "27d7e674317abb6ec472cb045af06e55a01ade11633ef3cdd5281182ed5d11b7",
+        "sha256_in_prefix": "27d7e674317abb6ec472cb045af06e55a01ade11633ef3cdd5281182ed5d11b7",
+        "size_in_bytes": 36624
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libintmath.py",
+        "path_type": "hardlink",
+        "sha256": "688453d2b91467fb1d1907f74cd08b77ea4132fb505a3b2c6ef14b7caed4d237",
+        "sha256_in_prefix": "688453d2b91467fb1d1907f74cd08b77ea4132fb505a3b2c6ef14b7caed4d237",
+        "size_in_bytes": 16688
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libmpc.py",
+        "path_type": "hardlink",
+        "sha256": "2819dd523b396154b7dbe21dddf7e50df620a5d5b53ebc7acdfa3c133e506ebb",
+        "sha256_in_prefix": "2819dd523b396154b7dbe21dddf7e50df620a5d5b53ebc7acdfa3c133e506ebb",
+        "size_in_bytes": 26875
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libmpf.py",
+        "path_type": "hardlink",
+        "sha256": "6f6ec35363dfa0fa56e54506fa2df12d0ca37cb484cc980fa597fdc1256de0d5",
+        "sha256_in_prefix": "6f6ec35363dfa0fa56e54506fa2df12d0ca37cb484cc980fa597fdc1256de0d5",
+        "size_in_bytes": 45022
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/libmp/libmpi.py",
+        "path_type": "hardlink",
+        "sha256": "bb4239122c24a9afb8f9d5c44e2e64eccb9ac417996ef0803c5b65f7753d605d",
+        "sha256_in_prefix": "bb4239122c24a9afb8f9d5c44e2e64eccb9ac417996ef0803c5b65f7753d605d",
+        "size_in_bytes": 27622
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/math2.py",
+        "path_type": "hardlink",
+        "sha256": "3b90e0960f354ac5b4c1f1c3509717383f3e70268bbdb548bf2c34b159916e92",
+        "sha256_in_prefix": "3b90e0960f354ac5b4c1f1c3509717383f3e70268bbdb548bf2c34b159916e92",
+        "size_in_bytes": 18561
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "113cc60dc8986eaf5fb622b068c6c9d79108f8a3571ebcd16fe6477a186a163b",
+        "sha256_in_prefix": "113cc60dc8986eaf5fb622b068c6c9d79108f8a3571ebcd16fe6477a186a163b",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d5ba0fa8f7f01b8e03c0d7be5a8749f6168fb41479fa908c337ae88b228ac40",
+        "sha256_in_prefix": "7d5ba0fa8f7f01b8e03c0d7be5a8749f6168fb41479fa908c337ae88b228ac40",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/calculus.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d82debdb16139a8db31e8c16418ef7fb946d2df9e2dc8a1b3d50ba3aad2e2f3f",
+        "sha256_in_prefix": "d82debdb16139a8db31e8c16418ef7fb946d2df9e2dc8a1b3d50ba3aad2e2f3f",
+        "size_in_bytes": 17637
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/eigen.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "06e04c814a41f11a5046ef9ed0c4f9814aea5e7194d72b22678e9d5762094caf",
+        "sha256_in_prefix": "06e04c814a41f11a5046ef9ed0c4f9814aea5e7194d72b22678e9d5762094caf",
+        "size_in_bytes": 18815
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/eigen_symmetric.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa8bdf7881f2491626d8d723e61ec90925ea8b7f232d38bd0b216ff8588372ce",
+        "sha256_in_prefix": "fa8bdf7881f2491626d8d723e61ec90925ea8b7f232d38bd0b216ff8588372ce",
+        "size_in_bytes": 44165
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/linalg.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "89a6dbe3d89e787f30e21038e32fc719e6203690b9d8b577c79b1ade3ed405df",
+        "sha256_in_prefix": "89a6dbe3d89e787f30e21038e32fc719e6203690b9d8b577c79b1ade3ed405df",
+        "size_in_bytes": 23479
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/__pycache__/matrices.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "85c13f10485e20257c0a027970999685017e6d8daf9575ff663ec05260dc178b",
+        "sha256_in_prefix": "85c13f10485e20257c0a027970999685017e6d8daf9575ff663ec05260dc178b",
+        "size_in_bytes": 28640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/calculus.py",
+        "path_type": "hardlink",
+        "sha256": "3cd46afa9da7c604fe7f30b9e0ad9d7a98bc75d85dc7a43ce86f2aa548877946",
+        "sha256_in_prefix": "3cd46afa9da7c604fe7f30b9e0ad9d7a98bc75d85dc7a43ce86f2aa548877946",
+        "size_in_bytes": 18609
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/eigen.py",
+        "path_type": "hardlink",
+        "sha256": "19b0d72370a2c7311d5f1af51bceae5169009e002f77ed39326490f93b2eff99",
+        "sha256_in_prefix": "19b0d72370a2c7311d5f1af51bceae5169009e002f77ed39326490f93b2eff99",
+        "size_in_bytes": 24394
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/eigen_symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "14f28f790af5706630e98e9e6b7d9ad587445900cb3fa265407100d967cd2d88",
+        "sha256_in_prefix": "14f28f790af5706630e98e9e6b7d9ad587445900cb3fa265407100d967cd2d88",
+        "size_in_bytes": 58534
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/linalg.py",
+        "path_type": "hardlink",
+        "sha256": "6958ccd52ea282859d57c043a3a65db3413b9441621a6578357be7b73ce3b4dd",
+        "sha256_in_prefix": "6958ccd52ea282859d57c043a3a65db3413b9441621a6578357be7b73ce3b4dd",
+        "size_in_bytes": 26962
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/matrices/matrices.py",
+        "path_type": "hardlink",
+        "sha256": "1bc6eaf264996c199831918bed63599420b1d283bd55af4cd7bb46a7e3a7fb46",
+        "sha256_in_prefix": "1bc6eaf264996c199831918bed63599420b1d283bd55af4cd7bb46a7e3a7fb46",
+        "size_in_bytes": 32168
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/rational.py",
+        "path_type": "hardlink",
+        "sha256": "eb8779e9fbd95e7818653ee73801de151517efb789d40d11deba5f58153e992a",
+        "sha256_in_prefix": "eb8779e9fbd95e7818653ee73801de151517efb789d40d11deba5f58153e992a",
+        "size_in_bytes": 5976
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5fa1ad6f4bbf37b820f8d9755261f83b2e543f388d9a8a718ac04846234eedc",
+        "sha256_in_prefix": "d5fa1ad6f4bbf37b820f8d9755261f83b2e543f388d9a8a718ac04846234eedc",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/extratest_gamma.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2429467a920a22432d914510748cdaa602897b562cae234239147182f5e4dbe7",
+        "sha256_in_prefix": "2429467a920a22432d914510748cdaa602897b562cae234239147182f5e4dbe7",
+        "size_in_bytes": 6476
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/extratest_zeta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "cdf5235ba3901f2e6c2b5a9e66c98751d6cf27270268c8d2787f13714aa770bf",
+        "sha256_in_prefix": "cdf5235ba3901f2e6c2b5a9e66c98751d6cf27270268c8d2787f13714aa770bf",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/runtests.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2d03b036899c55d777734721dc57a2993cae66fc31ac64e3730f3b0081549219",
+        "sha256_in_prefix": "2d03b036899c55d777734721dc57a2993cae66fc31ac64e3730f3b0081549219",
+        "size_in_bytes": 3508
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_basic_ops.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d41e0fd18a6fae0527f6d5f9a04ccd331c83da96ac6d5f60806d37493af128b0",
+        "sha256_in_prefix": "d41e0fd18a6fae0527f6d5f9a04ccd331c83da96ac6d5f60806d37493af128b0",
+        "size_in_bytes": 14177
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_bitwise.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "dc408771abb3dedbad9555e93ae0aebf76127e1b0da6fc99d58bb756c19dcde2",
+        "sha256_in_prefix": "dc408771abb3dedbad9555e93ae0aebf76127e1b0da6fc99d58bb756c19dcde2",
+        "size_in_bytes": 6832
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_calculus.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3eb696ecb8dad082bcf6a5e04820b89c0a1e37a93875dcefec515aa92ab269f",
+        "sha256_in_prefix": "f3eb696ecb8dad082bcf6a5e04820b89c0a1e37a93875dcefec515aa92ab269f",
+        "size_in_bytes": 8181
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_compatibility.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f48a95c41d71a471e69d3f3689416e8758d7f65127dc727eb81e19722f037ca1",
+        "sha256_in_prefix": "f48a95c41d71a471e69d3f3689416e8758d7f65127dc727eb81e19722f037ca1",
+        "size_in_bytes": 2052
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_convert.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d873be399613cbc0d052b9de0f316a9b01b3a55fdae4d49254acb3baeaa718b1",
+        "sha256_in_prefix": "d873be399613cbc0d052b9de0f316a9b01b3a55fdae4d49254acb3baeaa718b1",
+        "size_in_bytes": 9565
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_diff.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f96457a74c89a8f97331dd7fd50b9ea81986873443af0139339b0e8d0e780d43",
+        "sha256_in_prefix": "f96457a74c89a8f97331dd7fd50b9ea81986873443af0139339b0e8d0e780d43",
+        "size_in_bytes": 3772
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_division.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bde3e628274b01fbaec4307c223b09a26f5e6f3a0cec30f42d75be6b2f7e820e",
+        "sha256_in_prefix": "bde3e628274b01fbaec4307c223b09a26f5e6f3a0cec30f42d75be6b2f7e820e",
+        "size_in_bytes": 4510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_eigen.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4dd153a8943ea7bd9a35d5311dddb10c4b815248261d88d36a91db4088974919",
+        "sha256_in_prefix": "4dd153a8943ea7bd9a35d5311dddb10c4b815248261d88d36a91db4088974919",
+        "size_in_bytes": 3495
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_eigen_symmetric.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c96da7dcd5c2c37e8e1e213c212aa7108bc53c733bdc82f696e1340805a0664",
+        "sha256_in_prefix": "7c96da7dcd5c2c37e8e1e213c212aa7108bc53c733bdc82f696e1340805a0664",
+        "size_in_bytes": 9477
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_elliptic.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6820e8c762470fcf4d87b3376d222de9d32aa6b9e0d9a13d578a76d3203c78e",
+        "sha256_in_prefix": "e6820e8c762470fcf4d87b3376d222de9d32aa6b9e0d9a13d578a76d3203c78e",
+        "size_in_bytes": 19727
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_fp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "542fbc1b3dfbc45aceb3846dfb6f6a1ca7d1a3000603047a955ac32a1e9d7cfb",
+        "sha256_in_prefix": "542fbc1b3dfbc45aceb3846dfb6f6a1ca7d1a3000603047a955ac32a1e9d7cfb",
+        "size_in_bytes": 53655
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_functions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e63a4c3fef0d601ad2a2834fcdac1fbbcaa73f2831cefccf703e78410699a00",
+        "sha256_in_prefix": "4e63a4c3fef0d601ad2a2834fcdac1fbbcaa73f2831cefccf703e78410699a00",
+        "size_in_bytes": 32067
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_functions2.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0da8685370ef3bd38c828b9ae2bd12f3a35ddf283ad39dec794cf81e1b093780",
+        "sha256_in_prefix": "0da8685370ef3bd38c828b9ae2bd12f3a35ddf283ad39dec794cf81e1b093780",
+        "size_in_bytes": 72142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_gammazeta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "abb2f83aac3d5ac6f97d8048f65b95ab0674de88b666b7ca098a426194acab53",
+        "sha256_in_prefix": "abb2f83aac3d5ac6f97d8048f65b95ab0674de88b666b7ca098a426194acab53",
+        "size_in_bytes": 26416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_hp.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "65130af99bef0c500a3368c8e10271a80b7832dce6b9e3c19f3fe17ccc9524a2",
+        "sha256_in_prefix": "65130af99bef0c500a3368c8e10271a80b7832dce6b9e3c19f3fe17ccc9524a2",
+        "size_in_bytes": 8774
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_identify.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0acb3694ec68a0f337f02038e2fcfe3fcdaf11b6c613e018a329b05a6327f73",
+        "sha256_in_prefix": "c0acb3694ec68a0f337f02038e2fcfe3fcdaf11b6c613e018a329b05a6327f73",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_interval.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d0e222d88e40c4945bbc202c369855d6bf60ecfb3ddcaca13a920992b20d386",
+        "sha256_in_prefix": "9d0e222d88e40c4945bbc202c369855d6bf60ecfb3ddcaca13a920992b20d386",
+        "size_in_bytes": 16547
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_levin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e016a54596fe28b4b07b459d887755fa88fdab76c71f428bf100a017846cf43",
+        "sha256_in_prefix": "7e016a54596fe28b4b07b459d887755fa88fdab76c71f428bf100a017846cf43",
+        "size_in_bytes": 5870
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_linalg.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "762e8565640d09859a1447c1d2decdc7c063519882ec2b5e797a10a01935cd31",
+        "sha256_in_prefix": "762e8565640d09859a1447c1d2decdc7c063519882ec2b5e797a10a01935cd31",
+        "size_in_bytes": 10920
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_matrices.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6d64d1216f53a2fdd7e9d27c12ce8bdb9ddde9ec72a4c80f2de5e1495334f7d",
+        "sha256_in_prefix": "c6d64d1216f53a2fdd7e9d27c12ce8bdb9ddde9ec72a4c80f2de5e1495334f7d",
+        "size_in_bytes": 8541
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_mpmath.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "575bbc7a3ed8bd478e62fe233360c014173770b4664c809d68c5a597bae5e7c9",
+        "sha256_in_prefix": "575bbc7a3ed8bd478e62fe233360c014173770b4664c809d68c5a597bae5e7c9",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_ode.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2db5dbf07b0aac8b439aedc798b051fd7f34dcaef7bdd3d7ea158ccb917ec628",
+        "sha256_in_prefix": "2db5dbf07b0aac8b439aedc798b051fd7f34dcaef7bdd3d7ea158ccb917ec628",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_pickle.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8e7a47af5a5b3237ea6258a4438202d95a0c359b6fcc1303100689991979cc3",
+        "sha256_in_prefix": "f8e7a47af5a5b3237ea6258a4438202d95a0c359b6fcc1303100689991979cc3",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_power.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec73e550e0d1c5c33b18be30bd1c006afb9eb5dc0ee5723b9ca27bc4a58cfd84",
+        "sha256_in_prefix": "ec73e550e0d1c5c33b18be30bd1c006afb9eb5dc0ee5723b9ca27bc4a58cfd84",
+        "size_in_bytes": 4384
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_quad.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a52f9b7c7e7172d65ef914dbf8959078099054c30e1dfb5801dc3243aa7bc289",
+        "sha256_in_prefix": "a52f9b7c7e7172d65ef914dbf8959078099054c30e1dfb5801dc3243aa7bc289",
+        "size_in_bytes": 8808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_rootfinding.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b9c3fcf74e6dc8418dff8a99b0fb427fd813e772759d3ecc4bf93a1b73da893",
+        "sha256_in_prefix": "4b9c3fcf74e6dc8418dff8a99b0fb427fd813e772759d3ecc4bf93a1b73da893",
+        "size_in_bytes": 5685
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_special.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "37a80893e100fc76e6afd9341cb2fb2cc3ac8e63d1c8f782af69791d31f7ae89",
+        "sha256_in_prefix": "37a80893e100fc76e6afd9341cb2fb2cc3ac8e63d1c8f782af69791d31f7ae89",
+        "size_in_bytes": 2941
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_str.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5653880195615376a6c51f04febd79841cb08b997aaf0e52ec8deddca084e206",
+        "sha256_in_prefix": "5653880195615376a6c51f04febd79841cb08b997aaf0e52ec8deddca084e206",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_summation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "333c5f3e85bf64a358ed3fc453e9b170b744e4f687ad77beb7b6ec93986357e6",
+        "sha256_in_prefix": "333c5f3e85bf64a358ed3fc453e9b170b744e4f687ad77beb7b6ec93986357e6",
+        "size_in_bytes": 3505
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_trig.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "58cb54190f4b839c36ebfc68040152467ccbe7276b80b3eafb0f8f150560b78a",
+        "sha256_in_prefix": "58cb54190f4b839c36ebfc68040152467ccbe7276b80b3eafb0f8f150560b78a",
+        "size_in_bytes": 4157
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/test_visualization.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f70babd19a55ade10b3f8a7f9a4a3a0839d981235a115cb252d9b5130b2552e5",
+        "sha256_in_prefix": "f70babd19a55ade10b3f8a7f9a4a3a0839d981235a115cb252d9b5130b2552e5",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/__pycache__/torture.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "178c98b02a2919d1f0aaa17a0abb649e6467fd8640f362512a8f08f219bedaa3",
+        "sha256_in_prefix": "178c98b02a2919d1f0aaa17a0abb649e6467fd8640f362512a8f08f219bedaa3",
+        "size_in_bytes": 8180
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/extratest_gamma.py",
+        "path_type": "hardlink",
+        "sha256": "c627615d47a520b731b623c6a130478ea50e28827311a67fbf79e7b464325994",
+        "sha256_in_prefix": "c627615d47a520b731b623c6a130478ea50e28827311a67fbf79e7b464325994",
+        "size_in_bytes": 7228
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/extratest_zeta.py",
+        "path_type": "hardlink",
+        "sha256": "b20d748fd4618c1a55d84754ab2621195d84456bccfbe12fc30188cfa1d39a5c",
+        "sha256_in_prefix": "b20d748fd4618c1a55d84754ab2621195d84456bccfbe12fc30188cfa1d39a5c",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/runtests.py",
+        "path_type": "hardlink",
+        "sha256": "adf89f47bef1428a27b403fbabfcacfae950a70cba3404d5829e9ada592d3f53",
+        "sha256_in_prefix": "adf89f47bef1428a27b403fbabfcacfae950a70cba3404d5829e9ada592d3f53",
+        "size_in_bytes": 4818
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_basic_ops.py",
+        "path_type": "hardlink",
+        "sha256": "11b25d0ef1336f4901e68a2eed16b189692e77b652a7e800f67d074dc161c614",
+        "sha256_in_prefix": "11b25d0ef1336f4901e68a2eed16b189692e77b652a7e800f67d074dc161c614",
+        "size_in_bytes": 15205
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_bitwise.py",
+        "path_type": "hardlink",
+        "sha256": "fa72d886041b843cdadd240ceb706192d627b4009a82a318c7d89bddd3e74ca3",
+        "sha256_in_prefix": "fa72d886041b843cdadd240ceb706192d627b4009a82a318c7d89bddd3e74ca3",
+        "size_in_bytes": 7686
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_calculus.py",
+        "path_type": "hardlink",
+        "sha256": "ea2da0e67b91716887fda729f255b9c3ae347f0ca27d5185ebfeaddc0fb37a7c",
+        "sha256_in_prefix": "ea2da0e67b91716887fda729f255b9c3ae347f0ca27d5185ebfeaddc0fb37a7c",
+        "size_in_bytes": 8971
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "feddc0499de385f00c9cdd6fa165fb3c33480f39fedcfa24909188753d71ef2d",
+        "sha256_in_prefix": "feddc0499de385f00c9cdd6fa165fb3c33480f39fedcfa24909188753d71ef2d",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_convert.py",
+        "path_type": "hardlink",
+        "sha256": "27caa5d68fbaf014efacadb00669399ad3e83ff4bae4c51263215aeed643c350",
+        "sha256_in_prefix": "27caa5d68fbaf014efacadb00669399ad3e83ff4bae4c51263215aeed643c350",
+        "size_in_bytes": 8510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_diff.py",
+        "path_type": "hardlink",
+        "sha256": "aa3885f0dc50f2fb9eb99e591c63d0fa48dc8ff23b261fdf11d16d680f03cc42",
+        "sha256_in_prefix": "aa3885f0dc50f2fb9eb99e591c63d0fa48dc8ff23b261fdf11d16d680f03cc42",
+        "size_in_bytes": 2466
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_division.py",
+        "path_type": "hardlink",
+        "sha256": "ea551e65f99a056befb3376a9562cc1e05cf8d5b31bd6d56669778fa31560a95",
+        "sha256_in_prefix": "ea551e65f99a056befb3376a9562cc1e05cf8d5b31bd6d56669778fa31560a95",
+        "size_in_bytes": 5340
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_eigen.py",
+        "path_type": "hardlink",
+        "sha256": "da69ea5404c66ec264bd25473e98ad7c093cf35b7015f6f72ec3b75e2915f47b",
+        "sha256_in_prefix": "da69ea5404c66ec264bd25473e98ad7c093cf35b7015f6f72ec3b75e2915f47b",
+        "size_in_bytes": 3905
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_eigen_symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "bf456298289c214da8c0048330168ffadfb7d2eabea5772c825b7de4a06d34ee",
+        "sha256_in_prefix": "bf456298289c214da8c0048330168ffadfb7d2eabea5772c825b7de4a06d34ee",
+        "size_in_bytes": 8778
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_elliptic.py",
+        "path_type": "hardlink",
+        "sha256": "7c6dda35387f8b201fed93a1e79ef9da43b8e26034104bbaaafed168e42ae58b",
+        "sha256_in_prefix": "7c6dda35387f8b201fed93a1e79ef9da43b8e26034104bbaaafed168e42ae58b",
+        "size_in_bytes": 26145
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_fp.py",
+        "path_type": "hardlink",
+        "sha256": "009a34153c87e01b949d4b2fd7be8b0fde7aa26df4f0a1989ddcbe6f9e0a1b13",
+        "sha256_in_prefix": "009a34153c87e01b949d4b2fd7be8b0fde7aa26df4f0a1989ddcbe6f9e0a1b13",
+        "size_in_bytes": 89997
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_functions.py",
+        "path_type": "hardlink",
+        "sha256": "6f8ed5cb07689a8397e8a98c9b3f7e8afd88a95232770292b94c36a569451eb6",
+        "sha256_in_prefix": "6f8ed5cb07689a8397e8a98c9b3f7e8afd88a95232770292b94c36a569451eb6",
+        "size_in_bytes": 30955
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_functions2.py",
+        "path_type": "hardlink",
+        "sha256": "be5c3645684bd684dc89f9ce303c756bf63337de9480d34813949378a46fd476",
+        "sha256_in_prefix": "be5c3645684bd684dc89f9ce303c756bf63337de9480d34813949378a46fd476",
+        "size_in_bytes": 96990
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_gammazeta.py",
+        "path_type": "hardlink",
+        "sha256": "21c3adfbca672094913a93d00c4984cdb75c852b2ec1535cc5a7f05b03bbc2ca",
+        "sha256_in_prefix": "21c3adfbca672094913a93d00c4984cdb75c852b2ec1535cc5a7f05b03bbc2ca",
+        "size_in_bytes": 27663
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_hp.py",
+        "path_type": "hardlink",
+        "sha256": "ea170436ee937b69253c489349e2c12113e51fb3c00e527014a6f1f31a673a18",
+        "sha256_in_prefix": "ea170436ee937b69253c489349e2c12113e51fb3c00e527014a6f1f31a673a18",
+        "size_in_bytes": 10461
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_identify.py",
+        "path_type": "hardlink",
+        "sha256": "9465083dfac1da9693834705528eb81a633317bec5f60b3d1508d7ee0c461d5f",
+        "sha256_in_prefix": "9465083dfac1da9693834705528eb81a633317bec5f60b3d1508d7ee0c461d5f",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_interval.py",
+        "path_type": "hardlink",
+        "sha256": "4e361dedaf5c6ba8912622e3c34ea2b0b7994ee1a81803e68257836747187c9d",
+        "sha256_in_prefix": "4e361dedaf5c6ba8912622e3c34ea2b0b7994ee1a81803e68257836747187c9d",
+        "size_in_bytes": 17527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_levin.py",
+        "path_type": "hardlink",
+        "sha256": "3fc335d72575763fe075236fe71bb00b316217ce90c910ed3cc8d4472eb0276f",
+        "sha256_in_prefix": "3fc335d72575763fe075236fe71bb00b316217ce90c910ed3cc8d4472eb0276f",
+        "size_in_bytes": 5090
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_linalg.py",
+        "path_type": "hardlink",
+        "sha256": "484124005634080059746b174a283bc8b53d61bcacde08f07197cf69b0b3abf4",
+        "sha256_in_prefix": "484124005634080059746b174a283bc8b53d61bcacde08f07197cf69b0b3abf4",
+        "size_in_bytes": 10456
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_matrices.py",
+        "path_type": "hardlink",
+        "sha256": "bbeb12a98a8ea85e1cc3743520980fa587937a31ea3c948abddca8fbbac4fbd7",
+        "sha256_in_prefix": "bbeb12a98a8ea85e1cc3743520980fa587937a31ea3c948abddca8fbbac4fbd7",
+        "size_in_bytes": 7944
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_mpmath.py",
+        "path_type": "hardlink",
+        "sha256": "2d5c8951ea1f89ac56fb32ca595042cf9f4bf5442c8e55b44ecf7fa01884bffe",
+        "sha256_in_prefix": "2d5c8951ea1f89ac56fb32ca595042cf9f4bf5442c8e55b44ecf7fa01884bffe",
+        "size_in_bytes": 196
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_ode.py",
+        "path_type": "hardlink",
+        "sha256": "cc0c5ec411f87e798534ee1bbc41dbba0d4d2560b9cea7c56950e56228e8c246",
+        "sha256_in_prefix": "cc0c5ec411f87e798534ee1bbc41dbba0d4d2560b9cea7c56950e56228e8c246",
+        "size_in_bytes": 1822
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_pickle.py",
+        "path_type": "hardlink",
+        "sha256": "63c08a9832c5b091d4a86f020da070e6296b3cfe184f5c628d576e2e943b5c51",
+        "sha256_in_prefix": "63c08a9832c5b091d4a86f020da070e6296b3cfe184f5c628d576e2e943b5c51",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_power.py",
+        "path_type": "hardlink",
+        "sha256": "b33fcad364a6371a5ae8a6f5b892cdfcde2d5d3246750ffffef3d1b2110dec69",
+        "sha256_in_prefix": "b33fcad364a6371a5ae8a6f5b892cdfcde2d5d3246750ffffef3d1b2110dec69",
+        "size_in_bytes": 5227
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_quad.py",
+        "path_type": "hardlink",
+        "sha256": "e3d2ed7edd2f67f91d28b2f9b3e2a3f81cc05681792cf54451e354cdd3a48212",
+        "sha256_in_prefix": "e3d2ed7edd2f67f91d28b2f9b3e2a3f81cc05681792cf54451e354cdd3a48212",
+        "size_in_bytes": 3893
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_rootfinding.py",
+        "path_type": "hardlink",
+        "sha256": "ba641e80468a1e660e125e63132a03f952ca0ed5ec4c92647a9284af8734742d",
+        "sha256_in_prefix": "ba641e80468a1e660e125e63132a03f952ca0ed5ec4c92647a9284af8734742d",
+        "size_in_bytes": 3132
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_special.py",
+        "path_type": "hardlink",
+        "sha256": "61b308a0c224244bef2982334b4097b612451b4fbe8faba7efeb5c13a6fb14f3",
+        "sha256_in_prefix": "61b308a0c224244bef2982334b4097b612451b4fbe8faba7efeb5c13a6fb14f3",
+        "size_in_bytes": 2848
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_str.py",
+        "path_type": "hardlink",
+        "sha256": "d16b060fd84c3d18bccdcb98300f42bb698ebd088216c90fc0cb0c7fc9410cae",
+        "sha256_in_prefix": "d16b060fd84c3d18bccdcb98300f42bb698ebd088216c90fc0cb0c7fc9410cae",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_summation.py",
+        "path_type": "hardlink",
+        "sha256": "26cf28d27b8d410be1dcdeec7d2edac4d347ce4295b26eed54b38f9041e40b17",
+        "sha256_in_prefix": "26cf28d27b8d410be1dcdeec7d2edac4d347ce4295b26eed54b38f9041e40b17",
+        "size_in_bytes": 1859
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_trig.py",
+        "path_type": "hardlink",
+        "sha256": "ccfb642049d9693871716babe24ec15fcfb62668fe0213b5f754afbfb00d6145",
+        "sha256_in_prefix": "ccfb642049d9693871716babe24ec15fcfb62668fe0213b5f754afbfb00d6145",
+        "size_in_bytes": 4799
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/test_visualization.py",
+        "path_type": "hardlink",
+        "sha256": "d4faad928531f96b0a6204d18aee68f6905cf3993085fd65cd4d9ea1b0d00893",
+        "sha256_in_prefix": "d4faad928531f96b0a6204d18aee68f6905cf3993085fd65cd4d9ea1b0d00893",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/tests/torture.py",
+        "path_type": "hardlink",
+        "sha256": "2c3f79a044bb258d8aae810b2be9be8e1bed6ef65a282867b740aaee414c342c",
+        "sha256_in_prefix": "2c3f79a044bb258d8aae810b2be9be8e1bed6ef65a282867b740aaee414c342c",
+        "size_in_bytes": 7868
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/usertools.py",
+        "path_type": "hardlink",
+        "sha256": "6be4c3c3b5d246c3dd0447dfc4ea280d5e160c57ee5e73b9f0fef975c003f3b2",
+        "sha256_in_prefix": "6be4c3c3b5d246c3dd0447dfc4ea280d5e160c57ee5e73b9f0fef975c003f3b2",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "lib/python3.8/site-packages/mpmath/visualization.py",
+        "path_type": "hardlink",
+        "sha256": "a679db8dc77d02115544165abd85f9823c78cad2bf917a030e2b1847a1295e1b",
+        "sha256_in_prefix": "a679db8dc77d02115544165abd85f9823c78cad2bf917a030e2b1847a1295e1b",
+        "size_in_bytes": 10627
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8e1290315dd4e45dfc737e0700183280bfb1ae9893cd3f045225c6d99cbb9683",
+  "size": 784741,
+  "subdir": "linux-64",
+  "timestamp": 1616617934782,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mpmath-1.2.1-py38h06a4308_0.conda",
+  "version": "1.2.1"
+}

@@ -1,0 +1,44 @@
+{
+  "build": "py38h14f4228_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "mkl >=2021.4.0,<2022.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.24.3 py38h31eccc5_0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/mohanad/miniconda3/pkgs/numpy-1.24.3-py38h14f4228_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.24.3-py38h14f4228_0.conda",
+  "legacy_bz2_md5": "dd92432f0c3472739ed10c59ed700025",
+  "legacy_bz2_size": 10440,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/mohanad/miniconda3/pkgs/numpy-1.24.3-py38h14f4228_0",
+    "type": 1
+  },
+  "md5": "a4279fee62d780d04f73ecf7f8c9a9d4",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/mohanad/miniconda3/pkgs/numpy-1.24.3-py38h14f4228_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8fbfadeaa10f78910a8efef62482f9c3bb579f33033a1f262f8be370b16b9787",
+  "size": 11089,
+  "subdir": "linux-64",
+  "timestamp": 1682520778218,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.24.3-py38h14f4228_0.conda",
+  "version": "1.24.3"
+}
